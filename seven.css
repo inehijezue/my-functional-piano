@@ -1,0 +1,146 @@
+nav,header,footer{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+}
+nav ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background-color: gray;
+    overflow: hidden;
+}
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+}
+ul.topnav li a:hover{
+    background-color: green;
+    color: blue;
+}
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+/* ###########mobile */
+@media screen and (max-width: 680px) {
+    
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+
+    }
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive{
+        position: relative;
+
+    }
+    }
+    .col-6{width: 100%;
+        margin: 0;
+
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        display: block;
+    }
+
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#section-1-gradient{
+background: linear-gradient(#076Dff, #65a5ff);
+}
+.shift-left{
+margin-left: 30%;
+}
+div.right-side{
+    
+    margin-left: 15%;
+}
+div.right-side,.shift-left{
+    margin: 15px;
+}
+h1.large{
+    color: #fff;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+}
+form h2{
+    color: #fff;
+}
+input[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+     
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25.00%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50.00%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75.00%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100.00%;}
+
+h1.section2header{
+    font-size: 65px;
+    text-align: center;
+    text-transform: capitalize;
+}
+div.box{
+    background-color:#fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15 );
+}
+div.house img{
+    display: block;
+    margin: auto;
+}
+div.house{
+    width: 100%;
+    padding-top: 23px;
+}

@@ -1,0 +1,27 @@
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+}
+h2{
+    color: rgb(0,204,255);
+    text-shadow: 1px 1px 3px darkblue;
+}
+body{
+     background-image: url(./house\ pics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* text-align: center; */
+}
+.borderhouse{
+    border: 5px dotted red;
+    /* height: 100vh;
+    width: 100vw; */
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    opacity: 0.8;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITSkillsCenter Recreation</title>
+    <link rel="stylesheet" href="./seven.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="topnav responsive" id="dropdownClick">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News </a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li class="topnav-right"><a href="#">Sing Up</a></li>
+        <li class="topnav-right"><a href="#">Sign In</a></li>
+        <li class="dropdownIcon">
+          <a href="" onclick="dropdownMenu">&#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container" id="section-1-gradient">
+      <div class="row">
+        <div class="col-6">
+          <div class="shift-left">
+            <h1 class="large">ITSkillsCenter Academy</h1>
+            <h1 class="large">Made for Developers</h1>
+          </div>
+          <form action="" class="shift-left">
+            <div>
+              <h2>Username</h2>
+              <input
+                type="text"
+                class="inputbox"
+                placeholder="enter your name"
+                name="username"
+              />
+              <h2>Password</h2>
+              <input
+                type="text"
+                class="inputbox"
+                placeholder="password"
+                name="password"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col-6">
+          <div class="right-side">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/eXPaerJ93do"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              class="frame"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h1 class="section2header">The standards of awesomeness</h1>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="box">
+            <div class="house">
+              <img
+                src="./house pics.jpg"
+                alt=""
+                style="width: 110px; height: 110px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script>
+      function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      
+    </script>
+  </body>
+</html>
