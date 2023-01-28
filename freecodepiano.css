@@ -7,7 +7,7 @@ body{
 
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   color: #fff;
 }
 *,
@@ -78,7 +78,7 @@ h1 {
     }
     h1{
       text-align: center;
-      font-size: 40px;
+      font-size: 30px;
     }
   
   }
@@ -93,10 +93,7 @@ h1 {
   
   }
   
-  h1 {
-    text-align: center;
-    font-size: 70px;
-  }
+  
 
   .abraham{
     display: block;
